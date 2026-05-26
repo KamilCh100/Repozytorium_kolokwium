@@ -2,6 +2,6 @@ services:
     web_app:
         build:
         context: .
-        file: Dokcerfile
+        dockerfile: Dokcerfile
     port: -"5000:5000"
     restart: -"replay"
